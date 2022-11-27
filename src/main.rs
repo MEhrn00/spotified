@@ -2,7 +2,6 @@ use arguments::{Action, ListenEvent};
 use clap::Parser;
 
 mod arguments;
-mod output;
 mod spotify;
 
 use spotify::{SongType, SpotifyConnector};
